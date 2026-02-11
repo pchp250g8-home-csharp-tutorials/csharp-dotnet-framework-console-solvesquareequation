@@ -11,7 +11,7 @@ namespace SolveSquareEquation
         static void Main(string[] args)
         {
             Console.Clear();
-            Console.WriteLine("Input coefficients of lineal equation");
+            Console.WriteLine("Input coefficients of square equation");
             float.TryParse(Console.ReadLine(), out float a);
             float.TryParse(Console.ReadLine(), out float b);
             float.TryParse(Console.ReadLine(), out float c);
